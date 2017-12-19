@@ -1,0 +1,59 @@
+/*
+      Azodi, Omid
+      jadrn005
+      Project #4
+      Fall 2017
+ */
+html, body { background-color: #A0522D; min-width: 900px;}
+table { 
+	margin-left: auto; margin-right: auto; clear: both;
+	}
+h1, h2 { 
+    text-align: center; 
+    color:  #DC143C;
+    background-color: #32CD32;
+    border: 5px double #C00;
+    width: 600px;
+    font-size: 300%;
+    margin: 20px auto 20px auto;
+    padding: 20px 0 20px 0;
+    }
+td {	
+	text-align: center;  
+	background-color: #FDD; 
+	border: 5px solid #090; 
+	width: 800px; 
+	}
+img { float: left; 
+    } 
+#stocking {
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    width: 100px;
+    }  
+#rudolph {
+    float: right;
+    position: relative;
+    top: 0;
+    right: 45px;
+    width: 100px;
+    } 
+    
+.title {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 150%;
+    font-weight: 800;
+    color: #080;
+    } 
+    
+.subtitle {
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px;
+    }   
+    
+.text {
+    padding: 15px;
+    text-align: justify;
+    }            

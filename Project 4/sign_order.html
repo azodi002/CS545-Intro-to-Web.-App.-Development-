@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<!--
+      Azodi, Omid
+      jadrn005
+      Project #4
+      Fall 2017
+ -->
+
+<html>
+	<head>
+	    <meta charset="utf-8">
+	    <title>Order Form</title>
+	    <link rel="stylesheet" href="myfilecss.css">
+	    <script src="/jquery/jquery.js"></script>
+	    <script src="myjsfile.js"></script>
+	</head>
+
+<body id = "sign_up_page">
+    <h1 id = "sign_up_title">Bertha's Chocolate Order Form</h1>
+    <h3 id="status">&nbsp;</h3>
+    <hr/>
+	<div id = "form_wrapper">
+	    <div id = "inner_form_wrapper">
+		<form name = "customer" id = "customer_form" method="post">
+
+			<br/><hr/>
+
+			<b class = "billing"> Billing Address: </b> <br/>
+		    <!-- First Name -->
+			<b> First Name</b> <sup id = "fname_required"> *</sup> : <input type = "text" class = "name" name = "fname"> 
+
+			<!-- Last Name -->
+			<b> Last Name </b> <sup id = "lname_required"> *</sup> :<input type = "text" class = "name" name = "last_name"> <br />
+
+			<!-- Address -->
+			<b> Address </b> <sup id = "first_address"> *</sup> :<input type = "text" class = "address" name = "address_one"> <br/>
+
+			<!-- Address 2-->
+			<b> Address 2</b> (Opt.):<input type = "text" class = "address" name = "address_two"> <br/>
+
+			<!-- City -->
+			<b> City  </b> <sup id = "city_required"> *</sup> :<input type = "text" class = "address_others" name = "city" > 
+
+			<!-- State -->
+			<b> State (XY) </b> <sup id = "state_required"> *</sup> :<input type = "text" class = "address_others"  name = "state" maxlength = "2"> 
+			<br/>
+
+			<!-- Zipcode -->
+			<b> Zipcode </b> <sup id = "zipcode_required"> *</sup> :<input type = "text" class = "address_others"  name = "zipcode" maxlength = "5"> 
+			<br/>
+
+			<!-- Phone -->
+			<b> Phone ( XXX-XXX-XXXX )</b> <sup id = "phone_required"> *</sup>: <input type = "tel" class = "contact_info" name = "phone"> <br/>
+
+						<!-- Expertise  Radio Button-->
+			<b><u>Payment Type:</u></b><br/>
+			 <input type = "radio" name = "card_type"  value = "Visa"> Visa <br/>
+			 <input type = "radio" name = "card_type"  value = "Mastercard"> Mastercard<br/>
+			 <input type = "radio" name = "card_type"  value = "Discover"> Discover <br/>
+			 <input type = "radio" name = "card_type"  value = "American Express"> American Express <br/>
+
+			<b> Card # (XXXX-XXXX-XXXX-XXXX): </b> <input type = "text" class = "address_others"  name = "card" maxlength = "19"> 
+			<br/>
+
+		<b> Expiration (MM/YYYY): </b>
+			<select name = "month">
+			  <option value="01">01</option>
+			  <option value="02">02</option>
+			  <option value="03">03</option>
+			  <option value="04">04</option>
+			  <option value="05">05</option>
+			  <option value="06">06</option>
+			  <option value="07">07</option>
+			  <option value="08">08</option>
+			  <option value="09">09</option>
+			  <option value="10">10</option>
+			  <option value="11">11</option>
+			  <option value="12">12</option>
+			</select>
+			<select name = "year">
+			  <option value="01">2017</option>
+			  <option value="02">2018</option>
+			  <option value="03">2019</option>
+			  <option value="04">2020</option>
+			  <option value="05">2021</option>
+			  <option value="06">2022</option>
+			  <option value="07">2023</option>
+			  <option value="08">2024</option>
+			  <option value="09">2025</option>
+			  <option value="10">2026</option>
+			  <option value="11">2027</option>
+			</select> 	 		
+			<hr/>
+
+			<!-- Shipping below -->
+
+			<b class = "billing"> Shipping Address: </b> <br/>
+
+			<p><label class="same_as_shipping">Same as Shipping</label><input type="checkbox" name="same_as_shipping" /></p>
+
+			<!-- First Name -->
+			<b> First Name</b> <sup id = "fname_required"> *</sup> : <input type = "text" class = "name" name = "my_first"> 
+
+			<!-- Last Name -->
+			<b> Last Name </b> <sup id = "lname_required"> *</sup> :<input type = "text" class = "name" name = "my_last"> <br />
+
+			<!-- Address -->
+			<b> Address </b> <sup id = "first_address"> *</sup> :<input type = "text" class = "address" name = "my_address"> <br/>
+
+			<!-- Address 2-->
+			<b> Address 2</b> (Opt.):<input type = "text" class = "address" name = "my_saddress"> <br/>
+
+			<!-- City -->
+			<b> City  </b> <sup id = "city_required"> *</sup> :<input type = "text" class = "address_others" name = "my_city" > 
+
+			<!-- State -->
+			<b> State (XY) </b> <sup id = "state_required"> *</sup> :<input type = "text" class = "address_others"  name = "my_state" maxlength = "2"> 
+			<br/>
+
+			<!-- Zipcode -->
+			<b> Zipcode </b> <sup id = "zipcode_required"> *</sup> :<input type = "text" class = "address_others"  name = "my_zip" maxlength = "5"> <br/>
+
+			<!-- Phone -->
+			<b> Phone ( XXX-XXX-XXXX )</b> <sup id = "phone_required"> *</sup>: <input type = "tel" class = "contact_info" name = "my_phone"> <br/>
+
+			<hr/>
+			<div class="submit_button">
+                <input type="submit" id = "validate_button" value="Submit" />
+            </div>   
+            <button id="go_back">Back to Cart</button>
+		</form>
+	</div>
+	</div>
+</body>
+</html>

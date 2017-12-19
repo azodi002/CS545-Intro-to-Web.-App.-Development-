@@ -1,0 +1,137 @@
+
+/************
+  Azodi, Omid
+  Project #4
+  Fall 2017
+  jadrn005
+*************/
+
+.pageHeader {
+color: #EEE8AA;
+font-size:80px;
+text-align:center;
+background-color:brown;
+font-weight: bold;
+opacity:.7;
+}
+
+.history_ul {
+	font-size:1.5em;
+}
+.home_list {
+	font-size: 1.5em;
+	padding-left:40px;
+}
+
+#city_header {
+	color:red;
+	text-align:center;
+	font-size:70px;
+}
+
+a, a:visited, a:active {
+  color: beige;
+}
+
+a:hover {
+	color:teal;
+}
+
+.menu_list {
+color:  black;
+text-align: center;
+font-size:30px;
+}
+/*https://www.w3schools.com/css/css_navbar.asp*/
+ul {    
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+	display:inline;
+}
+
+html, body {
+	min-width: 1035px;
+	min-height: 600px;
+    overflow-x: hidden;
+}
+
+#wrapper {
+	margin: 10px auto 0px auto;
+	padding: 10px 10px; overflow:auto;
+}
+
+.homeTxt {
+	text-align: center;
+    width: 80%;
+    display: block;
+    margin: auto;
+    color: white;
+    padding-top: 20px;
+}
+.homePic {
+	padding-top: 20px;
+    margin: auto;
+    display: block;
+    width: 80%;
+}
+.content {
+	width: 80%;
+    display: block;
+    margin: auto;
+    color:blue;
+}
+
+#welcome_text {
+	width:80%;
+	margin:auto;
+}
+
+.about {
+	font-color:black;
+}
+
+#index_background {
+    background: url(index_bgd.jpg);
+    background-repeat: no-repeat;
+    background-size: 1600px 1000px;
+}
+
+.address {
+	color:black;
+	text-align: center;
+	font-size:30px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.contact {
+    text-align: center; 
+    color:  #DC143C;
+    background-color: #32CD32;
+    border: 5px double #C00;
+    width: 600px;
+    font-size: 300%;
+    margin: 20px auto 20px auto;
+    padding: 20px 0 20px 0;
+}
+
+.contact_background {
+	background-color:#A0522D;
+}
+
+.contact_img {
+	margin:auto;
+	display:block;
+	width:40%;
+	height:400px;
+	width:400px;
+}
+
+#product_tabs {
+	margin:auto;
+	text-align: center;
+}
+
+
