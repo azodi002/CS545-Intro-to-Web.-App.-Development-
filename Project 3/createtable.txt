@@ -1,0 +1,26 @@
+use jadrn005;
+
+drop table if exists person;
+
+create table person(
+	fname varchar(50) NOT NULL,
+	mname varchar(50) NOT NULL,
+	lname varchar(50) NOT NULL,
+	firstAddress varchar(100) NOT NULL,
+	secondAddress varchar(100) NOT NULL,
+	city varchar(30) NOT NULL,
+	state char(2) NOT NULL,
+	zip char(5) NOT NULL,
+	phone varchar(12) NOT NULL,
+	email varchar(50) NOT NULL,
+	gender varchar(6) NOT NULL,
+	month varchar(15) NOT NULL,
+	day varchar(2) NOT NULL,
+	year varchar(2) NOT NULL,
+	condition varchar(8) NOT NULL,
+	expertise varchar(11) NOT NULL,
+	ageGroup varchar(6) NOT NULL,
+	image varchar(50) NOT NULL
+);
+
+INSERT INTO person VALUES('John', 'Angular', 'Smith','First St.', 'Second Address St.', 'San Diego', 'CA', '92129', '858-400-5000', 'john@gmail.com', 'Male', 'August', '02', '1995', 'Deaf', 'Novice', 'Adult', 'john_image');
